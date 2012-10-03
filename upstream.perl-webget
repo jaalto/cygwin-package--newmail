@@ -1,0 +1,2 @@
+tag1: newmail
+  http://packages.debian.org/unstable/newmail  pregexp:orig.tar.gz file:newmail_0.5.orig.tar.gz new: x:
