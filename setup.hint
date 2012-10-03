@@ -1,10 +1,9 @@
-# -- THIS IS EXAMPLE, fill in and delete fields that are not need --
-# See http://cygwin.com/setup.html   The 'category' can be:
-# Admin Archive Base Database Devel Doc Editors Games Graphics Interpreters
-# Libs Mail Math Net Science Security Shells System Text Utils Web X11
-sdesc: "some text"
-ldesc: "some text"
-category: name1[ name2...]
-requires: cygwin [ package...]
-external-source: package
-conflicts:
+sdesc: "Notificator for incoming mail"
+ldesc: "A small utility that stays in the background and helps you keep track
+of your incoming mail. It is used to monitor an arbitrary amount of
+mailboxes and display the subject when new mail arrives. The program
+can be integrated into window-oriented programs, such as tool bars.
+This program was inspired by the similar newmail program from the Elm
+Mail User Agent."
+category: Mail
+requires: libiconv2

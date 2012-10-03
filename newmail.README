@@ -1,65 +1,69 @@
-<PKG>
+newmail
 ------------------------------------------
 
-<one line description - sdesc of setup.hint>
+Notificator for incoming mail
 
-<short description, paragraph - ldesc of setup.hint>
+A small utility that stays in the background and helps you keep track
+of your incoming mail. It is used to monitor an arbitrary amount of
+mailboxes and display the subject when new mail arrives. The program
+can be integrated into window-oriented programs, such as tool bars.
+This program was inspired by the similar newmail program from the Elm
+Mail User Agent.
 
 Runtime requirements:
-  cygwin-1.5.x or newer
+  libiconv2
 
 Build requirements:
-  cygwin-1.5.x or newer
+  libiconv-devel
 
 Canonical homepage:
-  http://... <where the upstream, non-cygwinize package lives>
+  http://www.infodrom.org/projects/newmail
+  http://packages.debian.org/newmail
 
 Canonical download:
-  ftp://...  <ditto>
+  http://www.infodrom.org/projects/newmail/download.php3
+
+Version control repository:
+  http://www.infodrom.org/projects/newmail/cvs.php
+
+Mailing list:
+  http://www.infodrom.org/projects/newmail/ml.php
+  http://lists.infodrom.org/index.php?list=infodrom-newmail
+
+Forum / Wiki:
+
+IRC channel:
 
 Upstream contact:
-  Author:
+  Maintainer: Joey Schulze <joey@infodrom.org>
   Bugs:
 
 License:
-  GPL
+  GPL-2+
 
 Language:
   C
 
-------------------------------------
+------------------------------------------
 
 Build instructions:
-  unpack <PKG>-<VER>-<REL>-src.tar.bz2
-    if you use setup to install this src package, it will be
+  unpack newmail-*-src.tar.bz2
+    if you use setup to install this source package, it will be
     unpacked under /usr/src automatically
   cd /usr/src
-  ./<PKG>*.sh all
+  ./newmail*.sh all
 
-This will create:
-  /usr/src/<PKG>-<VER>-<REL>.tar.bz2
-  /usr/src/<PKG>-<VER>-<REL>-src.tar.bz2
+------------------------------------------
 
--------------------------------------------
+Files included in the binary distribution:
+  See Cygwin package archive
 
-Files included in the binary distro:
-
-  /usr/bin/...
-  /usr/doc/<PKG>-<VER>/AUTHORS
-  /usr/doc/<PKG>-<VER>/...
-  /usr/doc/Cygwin/<PKG>-<VER>.README
-  /usr/man/man1/...
-  /etc/postinstall/<PKG>.sh
-
-------------------
+------------------------------------------
 
 Port Notes:
 
------ version <newer VER> -----
-Other information
+----- version 0.5-1 -----
+- Initial release 2012-10-03 Jari Aalto
 
------ version <VER>-<REL> -----
-Initial release
-
-Cygwin port maintained by: <Your Name Here>  <Your email here>
-
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2012 Jari Aalto; Licensed under GPL v2 or later
